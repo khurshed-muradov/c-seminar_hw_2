@@ -22,4 +22,9 @@ while (true)
         System.Console.Write(im_userInput + " -> " + (((im_userInput % 100) / 10)));
         break;
     }
+    if (im_userInput < 100000)
+    {
+        System.Console.Write(im_userInput + " -> " + (((im_userInput % 1000) / 100)));
+        break;
+    }
 }
